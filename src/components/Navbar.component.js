@@ -5,7 +5,7 @@ export default class Navbar extends Component{
     render() {
         return(
             //create the navbar
-            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+            <nav className="navbar navbar-dark bg-dark navbar-expand-lg container-fluid">
             {/*    link tags*/}
                 <Link to="/" className="navbar-brand">Task Manager</Link>
                 <div className="collapse navbar-collapse">

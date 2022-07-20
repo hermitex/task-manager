@@ -21,4 +21,5 @@ function Avatar() {
     </Card>
   );
 }
+
 export default Avatar;
